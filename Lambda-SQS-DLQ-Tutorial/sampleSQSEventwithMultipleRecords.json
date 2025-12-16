@@ -1,0 +1,36 @@
+{
+  "Records": [
+    {
+      "messageId": "9656ea14-50eb-4d95-978c-015bf83fb32a",
+      "receiptHandle": "AQEB8CntO6aHJXH9XjhBmxTwRJgbT8URHYfsAFw0njhiWwuJTEKR7tt5dtWEbq//jOpWl/B3JMAM9L5F1luKsyeOQr6bHiY8WtBz9zfLD6ZslotKyx6iE8Ys/WbNTXLxUFse5hEpK20bqkYzSusbcK/lt5JXWUAoSWEi3VoVdL0/qDIYTtHW2PfRzFwCjFzU241CoADEobCT1DwPStFZ5xZYGzPB3KuOr+vftQp8WJoUoF2VL+PZARqlS6Cx/6BZfaTOLL/xUla9HsJsWEntHW5XlQzF0bPkyt68OMGaakFXxjMoESTBrKyApI+UXg+XiSk5HHDeL3X+F/99hXHBaoCsc3mWpcH9G1FsMTjDLaneGzzdh7/UyCl/0juHKUfJP/ME",
+      "body": "{\n  \"account\": \"12345\",\n  \"detail\": {\n    \"payload\": {\n      \"addresses\": [\n        {\n          \"address1\": \"sdfs2-23-4\",\n          \"address2\": \"B\",\n          \"city\": \"sdgsd\",\n          \"company\": \"\",\n          \"country\": \"Japan\",\n\n          \"customer_id\": 223424234,\n\n          \"first_name\": \"sdfsfds\",\n          \"id\": 23423,\n          \"last_name\": \"sdfsfs\",\n          \"name\": \"sdfsdfs\",\n          \"phone\": \"+812342342\",\n\n          \"zip\": \"2342423\"\n        }\n      ]\n    },\n\n    \"id\": \"18d83ecd-3170-6e0a-87e8-80385766ac7c\",\n    \"region\": \"ap-southeast-1\",\n    \"time\": \"2025-12-11T13:02:10Z\",\n    \"version\": \"0\"\n  }\n}\n",
+      "attributes": {
+        "ApproximateReceiveCount": "1",
+        "SentTimestamp": "1765776528439",
+        "SenderId": "903419531485",
+        "ApproximateFirstReceiveTimestamp": "1765776528440"
+      },
+      "messageAttributes": {},
+      "md5OfBody": "09acc0457f2489790661c6942dd2f633",
+      "eventSource": "aws:sqs",
+      "eventSourceARN": "arn:aws:sqs:us-east-1:903419531485:TestQueue1",
+      "awsRegion": "us-east-1"
+    },
+    {
+      "messageId": "9656ea14-50eb-4d95-978c-015bf83fb31a",
+      "receiptHandle": "AQEB8CntO6aHJXH9XjhBmxTwRJgbT8URHYfsAFw0njhiWwuJTEKR7tt5dtWEbq//jOpWl/B3JMAM9L5F1luKsyeOQr6bHiY8WtBz9zfLD6ZslotKyx6iE8Ys/WbNTXLxUFse5hEpK20bqkYzSusbcK/lt5JXWUAoSWEi3VoVdL0/qDIYTtHW2PfRzFwCjFzU241CoADEobCT1DwPStFZ5xZYGzPB3KuOr+vftQp8WJoUoF2VL+PZARqlS6Cx/6BZfaTOLL/xUla9HsJsWEntHW5XlQzF0bPkyt68OMGaakFXxjMoESTBrKyApI+UXg+XiSk5HHDeL3X+F/99hXHBaoCsc3mWpcH9G1FsMTjDLaneGzzdh7/UyCl/0juHKUfJP/ME",
+      "body": "{\n  \"account\": \"12345\",\n  \"detail\": {\n    \"payload\": {\n      \"addresses\": [\n        {\n          \"address1\": \"sdgsgds2-23-4\",\n          \"address2\": \"B\",\n          \"city\": \"sdfsd\",\n          \"company\": \"\",\n          \"country\": \"Japan\",\n\n          \"customer_id\": 234232,\n\n          \"first_name\": \"sdfsfs\",\n          \"id\": sdfs,\n          \"last_name\": \"sdfsf\",\n          \"name\": \"sdfsfsd\",\n          \"phone\": \"+81234242\",\n\n          \"zip\": \"23424232\"\n        }\n      ]\n    },\n\n    \"id\": \"18d83ecd-3170-6e0a-87e8-80385766ac7c\",\n    \"region\": \"ap-southeast-1\",\n    \"time\": \"2025-12-11T13:02:10Z\",\n    \"version\": \"0\"\n  }\n}\n",
+      "attributes": {
+        "ApproximateReceiveCount": "1",
+        "SentTimestamp": "1765776528439",
+        "SenderId": "903419531485",
+        "ApproximateFirstReceiveTimestamp": "1765776528440"
+      },
+      "messageAttributes": {},
+      "md5OfBody": "09acc0457f2489790661c6942dd2f633",
+      "eventSource": "aws:sqs",
+      "eventSourceARN": "arn:aws:sqs:us-east-1:903419531485:TestQueue1",
+      "awsRegion": "us-east-1"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "account": "12345",
+  "detail": {
+    "payload": {
+      "addresses": [
+        {
+          "address1": " 2-23-4",
+          "address2": "B",
+          "city": "sdfsd",
+          "company": "",
+          "country": "Japan",
+
+          "customer_id": 23423423432,
+
+          "first_name": "sdfs",
+          "id": 2342342,
+          "last_name": "sdfss",
+          "name": "adfgasdgasg",
+          "phone": "+81234242432",
+
+          "zip": "45252342"
+        }
+      ]
+    },
+
+    "id": "18d83ecd-3170-6e0a-87e8-80385766ac7c",
+    "region": "ap-southeast-1",
+    "time": "2025-12-11T13:02:10Z",
+    "version": "0"
+  }
+}
