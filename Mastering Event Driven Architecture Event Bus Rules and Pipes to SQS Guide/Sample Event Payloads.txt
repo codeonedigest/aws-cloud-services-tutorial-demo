@@ -1,0 +1,26 @@
+
+{
+  "eventtype": "order-create",
+  "id": "order1001",
+  "productid": "product1234",
+  "address": "dummy address line1",
+  "payment": "credit card1"
+}
+
+{
+  "eventtype": "customer-create",
+  "id": "customer1111",
+  "firstname": "joe",
+  "lastname": "sug",
+  "mobile": "8989898989",
+  "address": "dummy address line"
+}
+
+{
+  "eventtype": "product-create",
+  "id": "product22222",
+  "title": "Denim 501 Jeans",
+  "description": "Denim 501 Jeans",
+  "quantity": "50",
+  "address": "dummy address line"
+}

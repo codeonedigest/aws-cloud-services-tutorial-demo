@@ -1,0 +1,26 @@
+{
+	"version": "0",
+	"id": "47092cd1-10c1-7813-a952-b0d492708a94",
+	"detail-type": "Event from aws:sqs",
+	"source": "Pipe MyDemoPipe",
+	"account": "903419531485",
+	"time": "2026-05-02T03:29:11Z",
+	"region": "us-east-1",
+	"resources": [],
+	"detail": {
+		"messageId": "a84f6c13-c38b-48da-b523-599abf14de54",
+		"receiptHandle": "AQEBN/DWoHqzYyd1KxC/bJednMX6/RgrprL5fipVIp+CswTTZrlI1VUHGTQieygnXKDs4hixOpOUovoos8weBslhHS6+nh3MOScW2WbIaa0XExYJslvDG2EdlqinZn6lvM5n0waYKOu64bflaYkjm+jmJkxFCd9G1PpzGUMDMNCCs8wptTRieku/zJshyHKr4HED7FpX/VYrSb4daIxWyLAXs4z++n6Y3i/Sfqw2/NGpGx+RoZPoh3pfmigAjrisVy44SQmSp166q+lr59IIAqCJP0eBu0INMg593vwjbxPGUIDZLgugmfFPr2UGzvqI6raT5OyqVZ7JIIfmJ6yZtK66DIjVe7dLf97wSX1ewDBl1m1SkrpG8YFifbQbYtoCmlge5rox55XaIZ1kP59sXCUHgw==",
+		"body": "{\n  \"eventtype\": \"order-create\",\n  \"id\": \"order1001\",\n  \"productid\": \"product1234\",\n  \"address\": \"dummy address line1\",\n  \"payment\": \"credit card1\"\n}",
+		"attributes": {
+			"ApproximateReceiveCount": "1",
+			"SentTimestamp": "1777692551490",
+			"SenderId": "903419531485",
+			"ApproximateFirstReceiveTimestamp": "1777692551506"
+		},
+		"messageAttributes": {},
+		"md5OfBody": "751507de56a714b73a17012f08ea4111",
+		"eventSource": "aws:sqs",
+		"eventSourceARN": "arn:aws:sqs:us-east-1:903419531485:MySourceQueue",
+		"awsRegion": "us-east-1"
+	}
+}

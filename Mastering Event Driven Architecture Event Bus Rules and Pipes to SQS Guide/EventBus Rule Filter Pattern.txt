@@ -1,0 +1,26 @@
+------------ Rule pattern to send "order-create" event to Targequeue1 --------
+{
+  "source": ["Pipe MyDemoPipe"],
+  "detail-type": ["Event from aws:sqs"],
+  "detail": {
+    "body": [{
+      "wildcard": "*order-create*"
+    }]
+  }
+}
+
+
+------------ Rule pattern to send "product-create" or "customer-create" event to Targequeue2 --------
+
+{
+  "source": ["Pipe MyDemoPipe"],
+  "detail-type": ["Event from aws:sqs"],
+  "detail": {
+    "body": [{
+      "wildcard": "*product-create*"
+    }, {
+      "wildcard": "*customer-create*"
+    }]
+  }
+}
+
